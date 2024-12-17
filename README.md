@@ -18,6 +18,12 @@ TeleportDelay is a PocketMine-MP plugin that allows players to teleport randomly
 ## Configuration (config.yml)
 After installing the plugin, open the `config.yml` file found in the `plugins/TeleportDelayOne/` folder and adjust the settings as needed.
 
+## Warning
+```yaml
+Version: 1.0.0
+Author: VsrStudio
+# Don't Delete or Change It If You Don't Want Your Server to Die
+```
 ### Example `config.yml`:
 ```yaml
 # Random Teleport Distance
