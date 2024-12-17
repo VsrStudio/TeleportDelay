@@ -1,0 +1,9 @@
+# Random Teleport Distance
+teleport-bounds:
+  min-x: -500
+  max-x: 500
+  min-z: -500
+  max-z: 500
+
+# Rondom Teleport Delay
+teleport-delay: 5 # delay in seconds
