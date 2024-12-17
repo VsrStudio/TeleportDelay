@@ -1,0 +1,19 @@
+name: TeleportDelay
+version: 1.0.0
+main: VsrStudio\TeleportDelay\Main
+api: 5.0.0
+author: VsrStudio
+commands:
+  tpd:
+    description: Manage teleport delays
+    permission: teleportdelay.command
+  rtp:
+    description: Random teleport
+    permission: teleportdelay.rtp
+permissions:
+  teleportdelay.command:
+    description: Allows the user to use teleport delay commands
+    default: true
+  teleportdelay.rtp:
+    description: Allows players to use the /rtp command
+    default: true
