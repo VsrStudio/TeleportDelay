@@ -30,37 +30,15 @@ teleport-bounds:
 teleport-delay: 5 # Delay in seconds before teleportation (e.g., 5 seconds)
 ```
 ## Commands
-This plugin provides the following commands:
 
-### `/tpd help`
-- **Description**: Displays a list of available commands.
-- **Usage**: `/tpd help`
+| Command                | Description                                 | Usage               |
+|------------------------|---------------------------------------------|---------------------|
+| `/tpd help`             | Displays a list of available commands.      | `/tpd help`         |
+| `/tpd create`           | Creates a new teleportation point.          | `/tpd create`       |
+| `/tpd delete`           | Deletes an existing teleportation point.    | `/tpd delete`       |
+| `/tpd setteleport`      | Sets the teleportation location.            | `/tpd setteleport`  |
+| `/tpd list`             | Lists all available teleportation points.   | `/tpd list`         |
+| `/tpd setglobaldelay`   | Sets a global teleport delay.               | `/tpd setglobaldelay` |
+| `/tpd tp`               | Teleports with the specified delay.         | `/tpd tp`           |
+| `/rtp`                  | Performs a random teleport for the player.  | `/rtp`              |
 
-### `/tpd create`
-- **Description**: Creates a new teleportation point.
-- **Usage**: `/tpd create`
-
-### `/tpd delete`
-- **Description**: Deletes an existing teleportation point.
-- **Usage**: `/tpd delete`
-
-### `/tpd setteleport`
-- **Description**: Sets the teleportation location.
-- **Usage**: `/tpd setteleport`
-
-### `/tpd list`
-- **Description**: Lists all available teleportation points.
-- **Usage**: `/tpd list`
-
-### `/tpd setglobaldelay`
-- **Description**: Sets a global teleport delay.
-- **Usage**: `/tpd setglobaldelay`
-
-### `/tpd tp`
-- **Description**: Teleports with the specified delay.
-- **Usage**: `/tpd tp`
-
-### `/rtp` (Random Teleport)
-- **Description**: Performs a random teleport for the player.
-- **Usage**: `/rtp`
-- **Permissions**: `teleportdelay.rtp`
