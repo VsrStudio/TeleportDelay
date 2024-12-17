@@ -48,3 +48,5 @@ teleport-delay: 5 # Delay in seconds before teleportation (e.g., 5 seconds)
 | `/tpd tp`               | Teleports with the specified delay.         | `/tpd tp`           |
 | `/rtp`                  | Performs a random teleport for the player.  | `/rtp`              |
 
+## Video Stup
+[Watch the video on YouTube](https://youtu.be/SotCuwNYzQM?si=JdWo3OeCfFovaI3E)
